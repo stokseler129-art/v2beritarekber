@@ -1,0 +1,126 @@
+/* RESET */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+/* CONTAINER */
+.admin-container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* LABEL */
+label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* INPUT */
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* CHECKBOX */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 12px;
+  background: linear-gradient(45deg, #b91c1c, #000);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* STATUS */
+#status {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* LIST */
+.admin-item {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.admin-item h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.admin-item small {
+  color: #666;
+}
+
+/* BUTTONS */
+.admin-actions {
+  margin-top: 5px;
+}
+
+.admin-actions button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background: #2563eb;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: #fff;
+}
+
+
+.preview-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+}
+
+.preview-box h2 {
+  margin-top: 15px;
+}
+
+.preview-box p {
+  margin-bottom: 10px;
+}

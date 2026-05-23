@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin newsmoba</title>
+
+  <!-- FONT GOOGLE -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div class="admin-container">
+  <h1>📰 Admin newsmoba</h1>
+
+  <form id="news-form">
+
+  <input type="hidden" id="edit-id">
+
+  <!-- JUDUL -->
+  <label>Judul Berita</label>
+  <input type="text" id="title" required>
+
+  <!-- GAMBAR -->
+  <label>URL Gambar</label>
+  <input type="text" id="image" required>
+
+  <!-- EXCERPT -->
+  <label>Ringkasan (Excerpt)</label>
+  <textarea id="excerpt" rows="2" placeholder="Ringkasan singkat..."></textarea>
+
+  <!-- CONTENT (INI YANG PENTING) -->
+  <label>Isi Artikel (HTML)</label>
+  <textarea id="content" rows="10" placeholder="<p>Isi berita...</p>" required></textarea>
+
+  <!-- PREVIEW -->
+  <label>Preview Artikel</label>
+  <div id="preview-box" class="preview-box"></div>
+
+  <!-- KATEGORI -->
+  <label>Kategori</label>
+  <select id="category">
+    <option>Informasi Moba</option>
+    <option>Seputar Moba</option>
+    <option>Moba Tips</option>
+    <option>Jasa & Layanan</option>
+  </select>
+
+  <!-- HEADLINE -->
+  <label class="checkbox">
+    <input type="checkbox" id="headline">
+    Jadikan Headline
+  </label>
+
+  <button type="submit">💾 Simpan Berita</button>
+</form>
+
+  <p id="status"></p>
+
+  <hr>
+
+  <h2>📋 Daftar Berita</h2>
+  <div id="admin-list"></div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

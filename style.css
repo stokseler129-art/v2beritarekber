@@ -46,19 +46,19 @@ section{
 }
 
 ::-webkit-scrollbar-thumb{
-  background:linear-gradient(#7c3aed,#4c1d95);
+  background:linear-gradient(#ec1c1c,#d41b1b);
   border-radius:50px;
 }
 
 /* ================= TOPBAR ================= */
 .topbar{
-  background:linear-gradient(90deg,#14071d,#0a0914);
+  background:linear-gradient(90deg,#1d0707,#0a0914);
   color:#d8b4fe;
   text-align:center;
   padding:9px;
   font-size:12px;
   letter-spacing:.5px;
-  border-bottom:1px solid rgba(168,85,247,.15);
+  border-bottom:1px solid rgba(247, 85, 85, 0.15);
 }
 
 /* ================= HEADER ================= */
@@ -93,7 +93,7 @@ section{
   width:45%;
   height:3px;
   border-radius:50px;
-  background:#9333ea;
+  background:#ea3333;
 }
 
 /* SEARCH */
@@ -119,7 +119,7 @@ section{
 }
 
 .search-box input:focus{
-  border-color:#9333ea;
+  border-color:#ea3333;
   box-shadow:0 0 0 4px rgba(147,51,234,.12);
 }
 
@@ -133,7 +133,7 @@ section{
   display:flex;
   align-items:center;
   justify-content:center;
-  color:#c084fc;
+  color:#fc8484;
   font-size:18px;
 }
 
@@ -162,7 +162,7 @@ section{
 }
 
 .navbar a:hover{
-  color:#c084fc;
+  color:#fc8484;
 }
 
 .navbar a.active{
@@ -177,7 +177,7 @@ section{
   width:0%;
   height:3px;
   border-radius:50px;
-  background:#9333ea;
+  background:#ea3333;
   transition:.3s;
 }
 
@@ -204,7 +204,7 @@ section{
   position:relative;
   overflow:hidden;
   border-radius:28px;
-  border:1px solid rgba(168,85,247,.12);
+  border:1px solid rgba(247, 85, 85, 0.12);
 }
 
 .hero-image img{
@@ -236,9 +236,9 @@ section{
   width:max-content;
   padding:7px 14px;
   border-radius:100px;
-  background:rgba(147,51,234,.18);
-  border:1px solid rgba(168,85,247,.2);
-  color:#e9d5ff;
+  background:rgba(234, 51, 51, 0.18);
+  border:1px solid rgba(247, 85, 85, 0.2);
+  color:#ffd5d5;
   font-size:11px;
   font-weight:600;
   margin-bottom:12px;
@@ -285,7 +285,7 @@ section{
   position:absolute;
   inset:0;
   background:linear-gradient(135deg,
-  rgba(147,51,234,.12),
+  rgba(234, 51, 51, 0.12),
   transparent);
   opacity:0;
   transition:.3s;
@@ -297,7 +297,7 @@ section{
 
 .news-card:hover{
   transform:translateY(-5px);
-  border-color:rgba(168,85,247,.25);
+  border-color:rgba(247, 85, 85, 0.25);
   box-shadow:0 20px 40px rgba(0,0,0,.35);
 }
 
@@ -311,7 +311,7 @@ section{
 }
 
 .news-content .category{
-  color:#c084fc;
+  color:#fc8484;
   font-size:11px;
   font-weight:700;
 }
@@ -352,7 +352,7 @@ section{
   width:4px;
   height:100%;
   border-radius:50px;
-  background:#9333ea;
+  background:#ea3333;
 }
 
 .trending-list{
@@ -377,7 +377,7 @@ section{
 
 .trending-item:hover{
   transform:translateY(-4px);
-  border-color:rgba(168,85,247,.22);
+  border-color:rgba(247, 85, 85, 0.22);
 }
 
 .trending-item img{
@@ -398,7 +398,7 @@ section{
 }
 
 .trending-content span{
-  color:#c084fc;
+  color:#fc8484;
   font-size:11px;
 }
 
@@ -424,7 +424,7 @@ section{
   width:4px;
   height:100%;
   border-radius:50px;
-  background:#9333ea;
+  background:#ea3333;
 }
 
 .social-list{
@@ -446,7 +446,7 @@ section{
 
 .social-item:hover{
   transform:translateY(-4px);
-  border-color:rgba(168,85,247,.22);
+  border-color:rgba(247, 85, 85, 0.22);
   background:#141420;
 }
 
@@ -519,7 +519,7 @@ section{
 }
 
 .footer-col h4{
-  color:#c084fc;
+  color:#fc8484;
   margin-bottom:12px;
 }
 
@@ -556,13 +556,13 @@ section{
   color:#fff;
   font-size:13px;
   font-weight:500;
-  background:linear-gradient(135deg,#581c87,#312e81);
+  background:linear-gradient(135deg,#871c1c,#312e81);
   transition:.3s;
 }
 
 .nav-item:hover{
   transform:translateY(-3px);
-  box-shadow:0 12px 25px rgba(76,29,149,.35);
+  box-shadow:0 12px 25px rgba(149, 29, 29, 0.35);
 }
 
 /* ================= DETAIL PAGE ================= */
@@ -590,7 +590,7 @@ section{
 
 .detail-category{
   display:inline-block;
-  background:#581c87;
+  background:#871c1c;
   color:#fff;
   padding:7px 14px;
   border-radius:100px;
@@ -615,7 +615,7 @@ section{
 }
 
 .detail-content blockquote{
-  border-left:4px solid #9333ea;
+  border-left:4px solid #ea3333;
   padding-left:16px;
   margin:22px 0;
   color:#c4b5fd;
@@ -651,7 +651,7 @@ section{
 }
 
 .popular-item:hover{
-  border-color:rgba(168,85,247,.2);
+  border-color:rgba(247, 85, 85, 0.2);
 }
 
 .popular-item img{
@@ -668,7 +668,7 @@ section{
 }
 
 .popular-item span{
-  color:#c084fc;
+  color:#fc8484;
   font-size:11px;
 }
 
